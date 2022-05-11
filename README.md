@@ -23,7 +23,7 @@ The lines of codes highlighted with the followings are required to pay attention
 - `proxy_file = 'proxy.csv'` Proxy file name too, can be adjusted.
 - **API_ID** and **API_HASH** values are retrived from https://my.telegram.org.
 - `#, proxy=getProxy(n))` The proxy feature is currently disabled. If you have bought proxies, can delete the `) #` in this line to re-use this feature. 
-- `##### 3` Adjust when to launch the code. If the time scheudled is in the past, the code will run immediately. (Since the loading and logging into 50+ Telegram account can take up to mintues, this feature is required for pre-loading.)
+- `##### 3` Adjust when to launch the code. If the time scheudled is in the past, the code will run immediately. (Since the loading and logging into 50+ Telegram accounts can take up to mintues, this feature is required for pre-loading.)
 - In the main function: `abc = input("Type anything to continue: ")` This line is for holding back sending messages after pre-logging in into accounts. Comment this line if wishes to automatically send messages in scheduled time.
 - `await everything[0].send_message(everything[3], everything[2])` Can be commneted if only wish to join group instead of sending out messages in the first time.
 
