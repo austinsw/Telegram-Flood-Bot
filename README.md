@@ -29,7 +29,7 @@ The lines of codes highlighted with the followings are required to pay attention
 
 ## messages.csv
 
-Can use Excel to type the messages and save as .csv format after completion. Each line represents one message. The delimiter is `|` since in a conversation, `,` is usually used.
+Can use Excel to type the messages and save as .csv format after completion. Each line represents one message. The delimiter is `|` since in a conversation, `,` is usually used. So try **NOT** to include `|` in the file.
 
 Change the file name here and the file name in the code accordingly.
 
