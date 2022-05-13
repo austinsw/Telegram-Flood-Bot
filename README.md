@@ -8,7 +8,7 @@ If the packages are not already installed, run the following code to install the
 - `pip install telethon`
 - `pip install pysocks`
 
-`python floodTemplate.py` to run the file: It was originally created on PyCharm, but can be put on a virtual machine, say Google Cloud for 24/7 access.
+`python flood.py` to run the file: It was originally created on PyCharm, but can be put on a virtual machine, say Google Cloud for 24/7 access.
 
 After first time running, ***.session*** file will be generated for each logged in phone number. Afterwards, verficiation for logging into that account is no longer required.
 
